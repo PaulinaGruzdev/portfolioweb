@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.projects {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.projects div {
+  margin: 25px;
+  flex-basis: -1%;
+  flex-grow: 1;
+}
+
+.big {
+  flex-grow: 2 !important;
+}
+
+img {
+  width: 100%;
+  border: 1px solid black;
+}
+body {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FNCepaG8qx9skM%2Fgiphy.gif&f=1);
+  background-size: cover;
+  background-repeat: repeat;
+  color: white;
+}
+
+h1 {
+  padding: 32px;
+}
+body {
+  text-align: center;
+}
+iframe {
+  padding: 25px;
+}
+
+body {
+  min-height: 100vh;
+  background-image: radial-gradient(green, blue, red, pink);
+  color: white;
+}
